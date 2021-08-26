@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Google HomePage</title>
+    <!-- <link href="./fonts/Cantarell-Regular.ttf" rel="stylesheet" > -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"> -->
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        ul{
+            float:right;
+        }
+        li{
+            float:left;
+            padding:10px;
+            list-style-type: none;
+            color: black;
+            
+            
+        }
+        #gmail,#images{
+            text-decoration: none;
+        }
+        #gmail:hover,#images:hover{
+            text-decoration: underline;
+        }
+        #signin{
+            padding:6px;
+            color: white;
+            background-color: blue;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+        #signin:hover{
+            box-shadow: 1px 1px 5px #999;
+        }
+        h1{
+            font-size: 100px;
+            /* margin-left: 600px; */
+            margin-top: 100px;
+        }
+        .blue{
+            color: rgb(113, 113, 255);
+        }
+        .red{
+            color: rgb(223, 46, 46);
+        }
+        .yellow{
+            color: rgb(243, 198, 0);
+        }
+        .green{
+            color: rgb(29, 165, 29);
+        }
+        #google{
+            letter-spacing: -15px;
+
+            font-size: 100px;
+            /* margin-left: 600px; */
+            margin-top: 100px;
+            font-weight:lighter;
+
+        }
+        .bar{
+            margin:0 auto;
+            width:575px;
+            border:1px solid #dcdcdc;
+            border-radius: 30px;
+
+        }
+        .bar:hover{
+            box-shadow:1px 1px 8px 1px #dcdcdc;
+        }
+        .search-bar{
+            
+            width:460px;
+            height:45px;
+            border:none;
+            outline:none;
+            /* font-size: 16px; */
+            
+        }
+        .voice{
+            height:20px;
+            position: relative;
+            top:5px;
+            left:20px;
+        }
+        .search{
+            height:20px;
+            position: relative;
+            top:6px; 
+            right:490px;
+        }
+        .buttons{
+            text-align: center;
+            margin:60px;
+        }
+        .button{
+           border: none; 
+           padding: 15px;
+           font-size: 16px;
+           margin: 10px;
+           border-radius: 3px;
+           /* color: rgb(73, 73, 73); */
+        }
+        button:hover{
+            box-shadow:1px 1px 2px 1px #7e7d7d;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav-bar">
+        <ul>
+            <li><a id="gmail" href="#">Gmail</a></li>
+            <li><a id="images" href="#">Images</a></li>
+            <li><a id="signin" href="#">Sign In</a></li>
+        </ul>
+    </div><br>
+    <div id="google"> 
+     <center>
+       <span class="blue">G</span>
+       <span class="red">o</span>
+       <span class="yellow">o</span>
+       <span class="blue">g</span>
+       <span class="green">l</span>
+       <span class="red">e</span>
+    </center>
+    </div><br><br>
+    <center><div class="bar">
+        <input class="search-bar" type="text" ><a href="#"><img class="search"src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png" alt=""></a>
+        <a href="# "><img class="voice" title="search by voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1425px-Google_mic.svg.png" alt=""></a></div>
+    </center>
+    <div class="buttons">
+        <button class="button" type="button">Google Search</button>
+        <button class="button" type="button">I'm Feeling Lucky</button>
+    </div>
+    
+
+       
+</body>
+</html>
